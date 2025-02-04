@@ -171,7 +171,7 @@ export default function Home() {
             ].map((testimonial) => (
               <Card key={testimonial.name} className="flex flex-col justify-between">
                 <CardContent className="pt-4">
-                  <p className="text-lg text-gray-600">"{testimonial.quote}"</p>
+                  <p className="text-lg text-gray-600">{testimonial.quote}</p>
                 </CardContent>
                 <div className="ml-4">
                   <p className="text-base font-medium text-gray-900">{testimonial.name}</p>
