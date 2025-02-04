@@ -35,10 +35,10 @@ export default function Features() {
         <div className="text-center">
           <h2 className="text-base font-semibold text-primary tracking-wide uppercase">Features</h2>
           <p className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
-            Discover CardiA's Capabilities
+            Discover CardiA Capabilities
           </p>
           <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-            Explore how CardiA's unique blend of Ayurvedic wisdom and cutting-edge technology can transform your health
+            Explore how CardiA unique blend of Ayurvedic wisdom and cutting-edge technology can transform your health
             monitoring experience.
           </p>
         </div>
@@ -84,7 +84,7 @@ export default function Features() {
               {
                 name: "Wear",
                 description:
-                  "Simply wear the CardiA smart band on your wrist. It's comfortable and designed for 24/7 use.",
+                  "Simply wear the CardiA smart band on your wrist. It is comfortable and designed for 24/7 use.",
               },
               {
                 name: "Monitor",

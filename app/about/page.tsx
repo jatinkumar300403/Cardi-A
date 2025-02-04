@@ -10,7 +10,7 @@ export default function About() {
             Our Mission
           </p>
           <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-            At CardiA, we're dedicated to providing affordable, life-saving health monitoring solutions that blend
+            At CardiA, we are dedicated to providing affordable, life-saving health monitoring solutions that blend
             ancient wisdom with cutting-edge technology.
           </p>
         </div>

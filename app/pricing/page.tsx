@@ -59,7 +59,7 @@ export default function Pricing() {
         <div className="sm:flex sm:flex-col sm:align-center">
           <h1 className="text-5xl font-extrabold text-gray-900 sm:text-center">B2B Pricing</h1>
           <p className="mt-5 text-xl text-gray-500 sm:text-center">
-            Choose the plan that's right for you and start your journey to better health today.
+            Choose the plan that is right for you and start your journey to better health today.
           </p>
         </div>
         <div className="mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-3">
@@ -80,7 +80,7 @@ export default function Pricing() {
                 </Button>
               </div>
               <div className="pt-6 pb-8 px-6">
-                <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">What's included</h3>
+                <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">What is included</h3>
                 <ul className="mt-6 space-y-4">
                   {tier.features.map((feature) => (
                     <li key={feature} className="flex space-x-3">
@@ -98,7 +98,7 @@ export default function Pricing() {
         <div className="sm:flex sm:flex-col sm:align-center">
           <h1 className="text-5xl font-extrabold text-gray-900 sm:text-center">B2C Pricing</h1>
           <p className="mt-5 text-xl text-gray-500 sm:text-center">
-            Choose the plan that's right for you and start your journey to better health today.
+            Choose the plan that is right for you and start your journey to better health today.
           </p>
         </div>
         <div className="mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0">
@@ -181,17 +181,17 @@ export default function Pricing() {
               {
                 question: "Is CardiA suitable for everyone?",
                 answer:
-                  "CardiA is designed for adults of all ages who are interested in proactive health monitoring. However, it's always best to consult with your healthcare provider before starting any new health regimen.",
+                  "CardiA is designed for adults of all ages who are interested in proactive health monitoring. However, it is always best to consult with your healthcare provider before starting any new health regimen.",
               },
               {
-                question: "What's the difference between the Basic and Premium plans?",
+                question: "What is the difference between the Basic and Premium plans?",
                 answer:
                   "The Basic plan offers essential health monitoring features, while the Premium plan provides advanced AI-driven analysis, personalized recommendations, and additional features like stress tracking.",
               },
               {
-                question: "How accurate is CardiA's health monitoring?",
+                question: "How accurate is CardiA health monitoring?",
                 answer:
-                  "CardiA's technology has been rigorously tested and refined. While it provides valuable insights, it's not a substitute for professional medical advice or diagnosis.",
+                  "CardiA technology has been rigorously tested and refined. While it provides valuable insights, it is not a substitute for professional medical advice or diagnosis.",
               },
               {
                 question: "Can I cancel my Premium subscription at any time?",

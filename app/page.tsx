@@ -159,14 +159,14 @@ export default function Home() {
                 role: "Software Engineer",
                 image: "/placeholder.svg",
                 quote:
-                  "The emergency response feature of CardiA gave me peace of mind when caring for my elderly parents. It's a lifesaver!",
+                  "The emergency response feature of CardiA gave me peace of mind when caring for my elderly parents. It is a lifesaver!",
               },
               {
                 name: "Priya",
                 role: "Fitness Enthusiast",
                 image: "/placeholder.svg",
                 quote:
-                  "I love how CardiA helps me understand my body better. It's like having a personal health coach on my wrist 24/7.",
+                  "I love how CardiA helps me understand my body better. It is like having a personal health coach on my wrist 24/7.",
               },
             ].map((testimonial) => (
               <Card key={testimonial.name} className="flex flex-col justify-between">
@@ -202,12 +202,12 @@ export default function Home() {
               {
                 question: "Is CardiA suitable for everyone?",
                 answer:
-                  "CardiA is designed for adults of all ages who are interested in proactive health monitoring. However, it's always best to consult with your healthcare provider before starting any new health regimen.",
+                  "CardiA is designed for adults of all ages who are interested in proactive health monitoring. However, it is always best to consult with your healthcare provider before starting any new health regimen.",
               },
               {
-                question: "How accurate is CardiA's health monitoring?",
+                question: "How accurate is CardiA health monitoring?",
                 answer:
-                  "CardiA's technology has been rigorously tested and refined. While it provides valuable insights, it's not a substitute for professional medical advice or diagnosis.",
+                  "CardiA technology has been rigorously tested and refined. While it provides valuable insights, it is not a substitute for professional medical advice or diagnosis.",
               },
             ].map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`}>
